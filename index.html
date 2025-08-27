@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn the basics of HTML5, accessibility, and SEO through a simple structured webpage example."
+    />
+    <meta
+      name="keywords"
+      content="HTML5, Accessibility, SEO, Web Development, Semantic HTML"
+    />
+    <meta name="author" content="Your Name" />
+    <title>HTML5 + Accessibility & SEO Basics</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+      <h1>Web Development Basics: HTML5, Accessibility & SEO</h1>
+      <p>A beginner-friendly example of semantic HTML structure</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#seo">SEO</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-content" role="main">
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About This Page</h2>
+        <p>
+          This web page demonstrates the use of semantic HTML5 elements,
+          accessibility best practices, and basic SEO principles. It is
+          structured for both humans and search engines to understand easily.
+        </p>
+      </section>
+
+      <section id="accessibility" aria-labelledby="accessibility-heading">
+        <h2 id="accessibility-heading">Accessibility</h2>
+        <article>
+          <h3>Why Accessibility Matters</h3>
+          <p>
+            Accessibility ensures that all users, including those with
+            disabilities, can navigate and understand a website. Features like
+            landmarks, alt text, proper heading order, and skip links improve
+            usability for everyone.
+          </p>
+        </article>
+      </section>
+
+      <section id="seo" aria-labelledby="seo-heading">
+        <h2 id="seo-heading">Search Engine Optimization (SEO)</h2>
+        <article>
+          <h3>What is SEO?</h3>
+          <p>
+            SEO helps web pages rank higher in search engine results by
+            improving content clarity, structure, and discoverability. Using
+            semantic tags, descriptive metadata, and keyword-rich headings are
+            beginner-friendly SEO practices.
+          </p>
+        </article>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>
+          For more tutorials and resources, feel free to reach out via
+          <a href="mailto:example@email.com">email</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>&copy; 2025 Web Development Basics. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
